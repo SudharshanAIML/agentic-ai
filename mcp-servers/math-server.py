@@ -3,7 +3,7 @@ mcp = FastMCP("MathServer")
 
 @mcp.tool()
 def add(a:int , b:int)->int :
-    """Add two numbers"""
+    """Add two numbers by using the input param a , b """
     return a+b
 
 @mcp.tool()
